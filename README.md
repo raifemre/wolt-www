@@ -2,6 +2,8 @@
 
 Developed with Next.js & TypeScript.
 
+[DEMO](https://wolt-opening-hours.herokuapp.com)
+
 ## Run in development
 
 Steps:
@@ -42,3 +44,4 @@ App has two pages: "Data Set" and "Playground"
 - shortid (Generating unqiue short ids)
 - monaco-editor (Live Code Editor)
 - styled-components (CSS Styling)
+
