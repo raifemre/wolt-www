@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components OpenHours should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 1px solid #EEEEEE;
+  border-radius: 10px;
+  width: 300px;
+  min-height: 285px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 0px rgba(50,50,50,0.1);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.c2 {
+  width: 100%;
+  border-bottom: 1px solid #202125;
+  padding: 0.5rem 0;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        fill="#A1A2A4"
+        height="24px"
+        stroke="#A1A2A4"
+        stroke-width="10"
+        style="margin-right: 10px;"
+        version="1.1"
+        viewBox="0 0 512 512"
+        width="24px"
+        x="0px"
+        y="0px"
+      >
+        <g>
+          <g>
+            <path
+              d="M347.216,301.211l-71.387-53.54V138.609c0-10.966-8.864-19.83-19.83-19.83c-10.966,0-19.83,8.864-19.83,19.83v118.978
+			c0,6.246,2.935,12.136,7.932,15.864l79.318,59.489c3.569,2.677,7.734,3.966,11.878,3.966c6.048,0,11.997-2.717,15.884-7.952
+			C357.766,320.208,355.981,307.775,347.216,301.211z"
+            />
+          </g>
+        </g>
+        <g>
+          <g>
+            <path
+              d="M256,0C114.833,0,0,114.833,0,256s114.833,256,256,256s256-114.833,256-256S397.167,0,256,0z M256,472.341
+			c-119.275,0-216.341-97.066-216.341-216.341S136.725,39.659,256,39.659c119.295,0,216.341,97.066,216.341,216.341
+			S375.275,472.341,256,472.341z"
+            />
+          </g>
+        </g>
+      </svg>
+       Opening Hours
+    </div>
+    <div
+      class="c2"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        Please contact with the restaurant
+      </div>
+      <div
+        class="c4"
+      >
+        Call : +358 033 0224321
+      </div>
+    </div>
+  </div>
+</div>
+`;

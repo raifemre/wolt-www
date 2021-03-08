@@ -88,7 +88,10 @@ const OpenHours = ({ openHours }: OpenHoursProps) => {
           />
         ))
       ) : (
-        <Message>Not provided by restaurant</Message>
+        <MessageContainer>
+          <Message>Please contact with the restaurant</Message>
+          <Message>Call : +358 033 0224321</Message>
+        </MessageContainer>
       )}
     </MainContainer>
   )
@@ -124,8 +127,16 @@ const Divider = styled.div`
   padding: 0.5rem 0;
 `
 
-const Message = styled.div`
+const MessageContainer = styled.div`
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+`
+
+const Message = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
