@@ -1,10 +1,27 @@
-// You can include shared interfaces/types in a separate file
-// and then use them in any component by importing them. For
-// example, to import the interface below do:
-//
-// import { User } from 'path/to/interfaces';
+type Weekday =
+  | 'monday'
+  | 'tuesday'
+  | 'wednesday'
+  | 'thursday'
+  | 'friday'
+  | 'saturday'
+  | 'sunday'
 
-export type User = {
-  id: number
-  name: string
+type Hour = {
+  type: 'open' | 'close'
+  value: number
 }
+
+type OpenHoursProps = {
+  openHours: OpenHoursObj
+}
+
+type OpenHoursObj = {
+  [day in Weekday | string]: Array<Hour>
+}
+
+type IconProps = {
+  color: string
+}
+
+export type { Weekday, Hour, OpenHoursProps, OpenHoursObj, IconProps }

@@ -1,18 +1,24 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 
-import GlobalStyles from 'styles/global'
+import GlobalStyles, { theme } from 'styles/global'
+import { ThemeProvider } from 'styled-components'
+import { Header } from '@Components'
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <Head>
-        <title>Wolt App</title>
-        <meta name="description" content="Wolt Assignment - React" />
+        <title>Wolt Assignment - Opening Hours</title>
+        <meta
+          name="description"
+          content="Wolt Opening Hours React Assignment"
+        />
       </Head>
       <GlobalStyles />
+      <Header />
       <Component {...pageProps} />
-    </>
+    </ThemeProvider>
   )
 }
 
